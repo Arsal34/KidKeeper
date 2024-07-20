@@ -86,7 +86,6 @@ class ContentViewModel: ObservableObject {
 struct ChannelDataPreview: PreviewProvider {
     static var previews: some View {
         ChannelsData()
-       
     }
 }
 

@@ -20,36 +20,39 @@ struct Playlists: View
                 .padding(.horizontal)
                 */
                 Spacer()
-                Image("pikachu4")
+                Spacer()
+                Spacer()
+                Image("pikachug")
+                    
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 400, height: 500)
+                    .frame(width: 500, height: 400)
                     .offset(x: 0, y: 40)
-                    .padding(.top,80)
-                    
+                    .padding(.top,90)
+                
+                    Spacer()
                     Text("Tap the plus icon to start adding your children's favorite playlist.")
-                        .font(.system(size: 15))
-                        
-                        .multilineTextAlignment(.center)
-                        .frame(width: 300, height: 40)
-                        .lineLimit(2)
-                        .padding(.bottom,20)
+                    .font(.system(size: 15))
+                    .multilineTextAlignment(.center)
+                    .frame(width: 300, height: 40)
+                    .lineLimit(2)
+                    //.padding(.bottom,10)
+                    .padding(.top,90)
                     
-                
-                
-                
                 Button(action: {
                     image = true
                 }) {
-                    Text("+ Add your child's favourite playlist")
+                    Text("+ Add your child's favourite videos")
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                         .padding(10)
                         .background(Color.yellow)
                         .cornerRadius(10)
                         .font(.system(size: 15))
-                    
+                        .padding(.bottom,50)
                 }
+                .padding(.top,20)
+                .padding(.bottom,30)
                 .fullScreenCover(isPresented: $image) {
                     AddNewChannels()
                 }

@@ -29,4 +29,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
                      options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
         return GIDSignIn.sharedInstance.handle(url)
     }
+    func application1(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        // Handle incoming URL here
+        if url.scheme == "yourappscheme" {
+            // Parse the URL and navigate to the appropriate view
+            // Example: If the URL is for password reset, navigate to that screen
+        }
+        return true
+    }
 }

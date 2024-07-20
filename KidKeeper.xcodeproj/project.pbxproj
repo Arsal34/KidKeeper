@@ -26,6 +26,11 @@
 		6FB5A8632C287CB00076BE16 /* ChannelInfoTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5A8622C287CB00076BE16 /* ChannelInfoTester.swift */; };
 		6FB5A8662C2FCCD00076BE16 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5A8652C2FCCD00076BE16 /* Channel.swift */; };
 		6FB5A8692C2FCECE0076BE16 /* YoutubeUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5A8682C2FCECE0076BE16 /* YoutubeUtility.swift */; };
+		6FBED8682C4B93D500FCDA6B /* ChannelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBED8672C4B93D500FCDA6B /* ChannelDetailView.swift */; };
+		6FBED86A2C4BAEF900FCDA6B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBED8692C4BAEF800FCDA6B /* Video.swift */; };
+		6FBED86C2C4BB0D900FCDA6B /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBED86B2C4BB0D900FCDA6B /* Playlist.swift */; };
+		6FBED86E2C4BB20400FCDA6B /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBED86D2C4BB20300FCDA6B /* VideoPlayerView.swift */; };
+		6FBED8702C4BB99400FCDA6B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBED86F2C4BB99400FCDA6B /* WebView.swift */; };
 		6FD09DAF2C0CBA9C00979FC2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6FD09DAE2C0CBA9C00979FC2 /* FirebaseAuth */; };
 		6FD09DB12C0CBA9C00979FC2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6FD09DB02C0CBA9C00979FC2 /* FirebaseDatabase */; };
 		6FD09DB32C0CBA9C00979FC2 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6FD09DB22C0CBA9C00979FC2 /* FirebaseDatabaseSwift */; };
@@ -39,10 +44,14 @@
 		D2702BA72BAC272100605675 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2702BA62BAC272100605675 /* Sidebar.swift */; };
 		D2702BA92BAC44DB00605675 /* SidebarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2702BA82BAC44DB00605675 /* SidebarContent.swift */; };
 		D272705F2C3847F4002AC0BC /* AddChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272705E2C3847F4002AC0BC /* AddChild.swift */; };
+		D2B6654D2C3F23A500B9AAEB /* Forgot password.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6654C2C3F23A500B9AAEB /* Forgot password.swift */; };
+		D2B6654F2C3F451D00B9AAEB /* Reset password.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6654E2C3F451D00B9AAEB /* Reset password.swift */; };
 		D2C821D32C0D2FB600057FBD /* Playlists.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C821D22C0D2FB600057FBD /* Playlists.swift */; };
 		D2C821D52C0D32D200057FBD /* AddNewChannels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C821D42C0D32D200057FBD /* AddNewChannels.swift */; };
 		D2C821D82C111B4000057FBD /* ZenLoop-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2C821D72C111B4000057FBD /* ZenLoop-Italic.ttf */; };
 		D2C821DB2C111ED000057FBD /* ZenLoop-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2C821DA2C111ED000057FBD /* ZenLoop-Regular.ttf */; };
+		D2CCCF0F2C49F08C00696132 /* TimeLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCCF0E2C49F08C00696132 /* TimeLimit.swift */; };
+		D2CCCF112C49FFE200696132 /* ChildHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCCF102C49FFE200696132 /* ChildHomeView.swift */; };
 		D2D645922C13DD7B009ACDA0 /* ChannelsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D645912C13DD7B009ACDA0 /* ChannelsDataModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,19 +71,29 @@
 		6FB5A8622C287CB00076BE16 /* ChannelInfoTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelInfoTester.swift; sourceTree = "<group>"; };
 		6FB5A8652C2FCCD00076BE16 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		6FB5A8682C2FCECE0076BE16 /* YoutubeUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeUtility.swift; sourceTree = "<group>"; };
+		6FBED8672C4B93D500FCDA6B /* ChannelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailView.swift; sourceTree = "<group>"; };
+		6FBED8692C4BAEF800FCDA6B /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		6FBED86B2C4BB0D900FCDA6B /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		6FBED86D2C4BB20300FCDA6B /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		6FBED86F2C4BB99400FCDA6B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		6FD09DB82C0CBAC100979FC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6FD09DBA2C0CBB5E00979FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D22726732C3F675F0074895E /* KidKeeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KidKeeper.entitlements; sourceTree = "<group>"; };
 		D2702BA02BAC263500605675 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		D2702BA22BAC266500605675 /* SideMenuOptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionModel.swift; sourceTree = "<group>"; };
 		D2702BA42BAC26C300605675 /* SidebarHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarHeader.swift; sourceTree = "<group>"; };
 		D2702BA62BAC272100605675 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		D2702BA82BAC44DB00605675 /* SidebarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarContent.swift; sourceTree = "<group>"; };
 		D272705E2C3847F4002AC0BC /* AddChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChild.swift; sourceTree = "<group>"; };
+		D2B6654C2C3F23A500B9AAEB /* Forgot password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Forgot password.swift"; sourceTree = "<group>"; };
+		D2B6654E2C3F451D00B9AAEB /* Reset password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reset password.swift"; sourceTree = "<group>"; };
 		D2C821D22C0D2FB600057FBD /* Playlists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlists.swift; sourceTree = "<group>"; };
 		D2C821D42C0D32D200057FBD /* AddNewChannels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewChannels.swift; sourceTree = "<group>"; };
 		D2C821D72C111B4000057FBD /* ZenLoop-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenLoop-Italic.ttf"; sourceTree = "<group>"; };
 		D2C821D92C111E9C00057FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D2C821DA2C111ED000057FBD /* ZenLoop-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenLoop-Regular.ttf"; sourceTree = "<group>"; };
+		D2CCCF0E2C49F08C00696132 /* TimeLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLimit.swift; sourceTree = "<group>"; };
+		D2CCCF102C49FFE200696132 /* ChildHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildHomeView.swift; sourceTree = "<group>"; };
 		D2D645912C13DD7B009ACDA0 /* ChannelsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,9 +135,13 @@
 				6F349DA62B8B423F005464E7 /* AddChannel.swift */,
 				6F135A0E2B8B358500F4917F /* Home.swift */,
 				D272705E2C3847F4002AC0BC /* AddChild.swift */,
+				D2CCCF102C49FFE200696132 /* ChildHomeView.swift */,
 				D2C821D22C0D2FB600057FBD /* Playlists.swift */,
 				D2C821D42C0D32D200057FBD /* AddNewChannels.swift */,
+				6FBED86D2C4BB20300FCDA6B /* VideoPlayerView.swift */,
+				6FBED8672C4B93D500FCDA6B /* ChannelDetailView.swift */,
 				D2D645912C13DD7B009ACDA0 /* ChannelsDataModel.swift */,
+				D2CCCF0E2C49F08C00696132 /* TimeLimit.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -128,6 +151,8 @@
 			children = (
 				6F46403E2A816D2800222F20 /* Login.swift */,
 				6F4640402A81707D00222F20 /* Signup.swift */,
+				D2B6654C2C3F23A500B9AAEB /* Forgot password.swift */,
+				D2B6654E2C3F451D00B9AAEB /* Reset password.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -151,6 +176,7 @@
 		6F46402D2A81698400222F20 /* KidKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				D22726732C3F675F0074895E /* KidKeeper.entitlements */,
 				6FB5A8672C2FCEAD0076BE16 /* Utilities */,
 				6FB5A8642C2FCC9E0076BE16 /* Model */,
 				D2C821D92C111E9C00057FBD /* Info.plist */,
@@ -180,6 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				6FB5A8652C2FCCD00076BE16 /* Channel.swift */,
+				6FBED8692C4BAEF800FCDA6B /* Video.swift */,
+				6FBED86B2C4BB0D900FCDA6B /* Playlist.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +217,7 @@
 			children = (
 				6FB5A8682C2FCECE0076BE16 /* YoutubeUtility.swift */,
 				6F5351412C3AB569000451C8 /* AuthManager.swift */,
+				6FBED86F2C4BB99400FCDA6B /* WebView.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -307,18 +336,27 @@
 			files = (
 				D272705F2C3847F4002AC0BC /* AddChild.swift in Sources */,
 				6FB5A8692C2FCECE0076BE16 /* YoutubeUtility.swift in Sources */,
+				D2CCCF112C49FFE200696132 /* ChildHomeView.swift in Sources */,
+				6FBED8702C4BB99400FCDA6B /* WebView.swift in Sources */,
 				D2702BA92BAC44DB00605675 /* SidebarContent.swift in Sources */,
+				6FBED86E2C4BB20400FCDA6B /* VideoPlayerView.swift in Sources */,
 				6F4640312A81698400222F20 /* ContentView.swift in Sources */,
+				6FBED86A2C4BAEF900FCDA6B /* Video.swift in Sources */,
+				D2CCCF0F2C49F08C00696132 /* TimeLimit.swift in Sources */,
 				6FB5A8662C2FCCD00076BE16 /* Channel.swift in Sources */,
+				D2B6654F2C3F451D00B9AAEB /* Reset password.swift in Sources */,
 				6F4640412A81707D00222F20 /* Signup.swift in Sources */,
 				D2D645922C13DD7B009ACDA0 /* ChannelsDataModel.swift in Sources */,
 				6F46403D2A816A5100222F20 /* Colors.swift in Sources */,
+				6FBED8682C4B93D500FCDA6B /* ChannelDetailView.swift in Sources */,
 				6FD09DBB2C0CBB5E00979FC2 /* AppDelegate.swift in Sources */,
 				D2C821D32C0D2FB600057FBD /* Playlists.swift in Sources */,
 				6F46402F2A81698400222F20 /* KidKeeperApp.swift in Sources */,
 				6F135A0F2B8B358500F4917F /* Home.swift in Sources */,
+				D2B6654D2C3F23A500B9AAEB /* Forgot password.swift in Sources */,
 				6F349DA72B8B423F005464E7 /* AddChannel.swift in Sources */,
 				6FB5A8632C287CB00076BE16 /* ChannelInfoTester.swift in Sources */,
+				6FBED86C2C4BB0D900FCDA6B /* Playlist.swift in Sources */,
 				D2702BA32BAC266500605675 /* SideMenuOptionModel.swift in Sources */,
 				D2702BA52BAC26C300605675 /* SidebarHeader.swift in Sources */,
 				D2702BA12BAC263500605675 /* SideMenuView.swift in Sources */,
@@ -454,10 +492,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = KidKeeper/KidKeeper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KidKeeper/Preview Content\"";
-				DEVELOPMENT_TEAM = B2C7A8TNLY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KidKeeper/Info.plist;
@@ -484,10 +524,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = KidKeeper/KidKeeper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KidKeeper/Preview Content\"";
-				DEVELOPMENT_TEAM = B2C7A8TNLY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KidKeeper/Info.plist;

@@ -15,6 +15,9 @@ enum AppColor: String {
     case primaryYellow = "Yellows"
     case OnClickColour = "Onclick"
     case AddChildScreen = "AddChildScreen"
+    case darkgray = "DarkGray"
+    case lightgray = "lightgray"
+    case lightblue = "lightblue"
    // case yellows = "yellows"
     func getColor() -> Color {
         switch self {
@@ -30,7 +33,12 @@ enum AppColor: String {
             return Color.OnClickColour
         case.AddChildScreen:
             return Color.AddChildScreen
-    
+        case.darkgray:
+            return Color.darkgray
+        case.lightgray:
+            return Color.lightgray
+        case.lightblue:
+            return Color.lightblue
         }
         
     }
@@ -39,7 +47,10 @@ extension Color {
     static let yellows = Color(red: 253/255    , green: 187/255   , blue: 31/255)
     static let OnClickColour = Color(red: 252/255    , green: 230/255   , blue: 36/255)
     static let AddChildScreen = Color(red: 191/255    , green: 191/255   , blue: 133/255)
-
+    static let darkgray = Color(red: 130/255, green: 127/255, blue: 117/255)
+    static let lightgray = Color (red: 163/255,green:  162/255, blue:  160/255)
+ 
+    static let lightblue = Color (red: 111/255,green:  172/255, blue:  230/255)
 }
 
 

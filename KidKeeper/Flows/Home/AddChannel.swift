@@ -39,7 +39,7 @@ struct AddChannelView: View {
                         .background(Color.yellow)
                         .cornerRadius(10)
                         .font(.system(size: 15))
-                    
+                        .padding(.bottom,50)
                 }
                 .fullScreenCover(isPresented: $image) {
                     AddNewChannels()

@@ -3,7 +3,7 @@ import SwiftUI
 struct Home: View {
     @State private var showmenu = false
     @EnvironmentObject var authManager: AuthManager
-
+    @State private var ChildMode = false
     var body: some View {
         VStack(alignment: .center, spacing: 20) {
             //HStack {
@@ -12,7 +12,6 @@ struct Home: View {
                 ZStack {
                     
                     VStack {
-                      
                         TabView {
                             VideoView()
                                 .tabItem {
@@ -31,56 +30,56 @@ struct Home: View {
                             Playlists()
                                 .tabItem {
                                     Image(systemName: "heart.fill")
-                                    Text("Playlists")
+                                    Text("favorites")
                                 }
                                 .tag(2)
                         }
                         .accentColor(.OnClickColour)
+                        
                     }
-                    
-                    
                     .toolbar(showmenu ? .hidden : .visible, for: .navigationBar)
                     Sidebar(IsShowing: $showmenu)
                 }
-               Divider()
+                Divider()
                     .background(Color.OnClickColour)
                 
-                .navigationBarTitleDisplayMode(.inline)
+                    .navigationBarTitleDisplayMode(.automatic)
                 
-                .toolbar{
-                    ToolbarItem(placement: .navigation){
-                        Button(action:{ showmenu.toggle() },label: {Image (systemName: "line.3.horizontal")})
+                    .toolbar{
+                        ToolbarItem(placement: .principal){
+                            HStack{
+                                
+                                Button(action:{ showmenu.toggle() },label: {Image (systemName: "line.3.horizontal")
+                                    .frame(width: 30, height: 30)})
+                                    
+
+                                Text("Parent Mode")
+                                    .font(.title)
+                                    .foregroundColor(.lightblue)
+                                    .padding(.bottom,3)
+                                Button(action:{ ChildMode.toggle() },label: {Image ("yellow child")
+                                        .resizable()
+                                    .frame(width: 30, height: 30)})
+                                    .padding(.leading,100)
+                                    .accentColor(.yellows)
+                                    .fullScreenCover(isPresented:   $ChildMode)
+                                {
+                                    ChildHomeView()
+                                }
+                               
+                        }
                     }
                 }
             }
         }
     }
-    
-    
-    /*Image(systemName: "list.bullet")
-     .resizable()
-     .frame(width: 30, height: 30)
-     .aspectRatio(contentMode: .fill)
-     .padding(.leading, 20)
-     
-     Spacer()
-     
-     Text("Home")
-     .fontWeight(.bold)
-     .foregroundColor(.black)
-     .font(.system(size: 30))
-     
-     Spacer()
-     }
-     .padding(.top, 20)
-     */
-    
-    }
-        
-    
-    
-struct LoginView_Previews: PreviewProvider {
-    static var previews: some View {
-        Home()
-    }
 }
+    
+    
+    
+    struct LoginView_Previews1: PreviewProvider {
+        static var previews: some View {
+            Home()
+        }
+    }
+
